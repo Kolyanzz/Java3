@@ -14,7 +14,7 @@ public class Main {
         asList(arrayOfStrings);
     }
     public static void swap(Object[] arr, int n1, int n2){
-        System.out.println("Задание 1: "+Arrays.toString(arr));
+        System.out.println("Задание 1.: "+Arrays.toString(arr));
         Object sw = arr[n1];
         arr[n1]=arr[n2];
         arr[n2]=sw;
